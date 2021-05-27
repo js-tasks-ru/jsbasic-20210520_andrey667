@@ -8,7 +8,7 @@ function ucFirst(str) {
   }
 }
 
-ucFirst(str)
+
 
 
 
