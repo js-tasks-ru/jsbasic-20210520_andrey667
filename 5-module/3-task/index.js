@@ -99,45 +99,5 @@ let position = 0;
 
 
 
-  // const carousel__inner = document.querySelector(".carousel__inner");
-  // const arrow_right = document.querySelector(".carousel__arrow_right");
-  // const arrow_left = document.querySelector(".carousel__arrow_left");
 
-  // function idea1 () {
-  //   if (carousel__inner.style.transforme === `translateX(${-carousel__inner.offsetWidth * 4}px)`) {
-  //       arrow_right.style.display = 'none';
-  //   } else {
-  //       arrow_right.style.display = '';
-  //   }
-  // }
-
-
-
-  // function idea2 () {
-  //   if (carousel__inner.style.transforme === `translateX(${0}px)`) {
-  //     arrow_left.style.display = 'none';
-  // } else {
-  //     arrow_left.style.display = '';
-  // }
-  // }
-
-
-
-  // function right () {
-  //   carousel__inner.style.transform += `translateX(${-carousel__inner.offsetWidth}px)`;
-  //   let position = -carousel__inner.offsetWidth * 3;
-    
-  //   if (position < offsetWidth) {
-  //       arrow_right.style.display = 'none';
-  //   } else {
-  //       arrow_right.style.display = '';
-  //   }
-
-  // }
-  // function left () {
-  //   carousel__inner.style.transform += `translateX(${carousel__inner.offsetWidth}px)`;
-  // }
-
-  // arrow_right.addEventListener('click',right);
-  // arrow_left.addEventListener('click', left);
 
