@@ -26,15 +26,16 @@ let position = 0;
   }
 
   function right () {
-    carousel__inner.style.transform += `translateX(${-carousel__inner.offsetWidth}px)`;
     position = position + 1;
+    carousel__inner.style.transform = `translateX(${-carousel__inner.offsetWidth * position}px)`;
     none()
   }
   function left () {
-    carousel__inner.style.transform += `translateX(${carousel__inner.offsetWidth}px)`;
     position = position - 1;
+    carousel__inner.style.transform = `translateX(${-carousel__inner.offsetWidth * position}px)`;
     none()
   }
+
 
   arrow_right.addEventListener('click',right);
   arrow_left.addEventListener('click', left);
